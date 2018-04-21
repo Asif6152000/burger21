@@ -1,0 +1,26 @@
+{
+  "name": "burger21",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Asif6152000/burger21.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Asif6152000/burger21/issues"
+  },
+  "homepage": "https://github.com/Asif6152000/burger21#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "handlebars": "^4.0.11",
+    "mysql": "^2.15.0"
+  }
+}
