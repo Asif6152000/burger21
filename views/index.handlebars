@@ -1,0 +1,22 @@
+<h1>Burger That Haven't Been Devoured</h1>
+<ul>
+    {{#each burgers}}
+    {{#unless devoured}}
+    <li>{{burger_name}}</li>
+    {{/unless}}
+  {{/each}}
+</ul>
+
+<h1>Burger Not Devoured</h1>
+<ul>
+    {{#each burgers}}
+    {{#if devoured}}
+    <li>{{burger_name}}</li>
+    {{/if}}
+  {{/each}}
+</ul>
+<form>
+<input id="userInput">
+<button type="submit" id="addBurger">Add Burger</button>
+    
+</form>

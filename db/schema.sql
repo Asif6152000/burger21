@@ -1,9 +1,9 @@
 CREATE DATABASE burger_DB; 
 USE burger_DB; 
 CREATE TABLE burgers(
-    id INT AUTO_INCREMENT,
+    id int NOT NULL AUTO_INCREMENT,
     burger_name VARCHAR (200),
-    devoured BOOLEAN 
-     
+    devoured BOOLEAN DEFAULT false,
+    PRIMARY KEY (id)   
 );
 
